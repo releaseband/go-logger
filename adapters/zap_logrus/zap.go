@@ -98,7 +98,7 @@ func (z *ZapAdapter) Warnf(format string, args ...interface{}) {
 	z.Logf(zap.WarnLevel, format, args...)
 }
 
-func (z *ZapAdapter) WarningF(format string, args ...interface{}) {
+func (z *ZapAdapter) Warningf(format string, args ...interface{}) {
 	z.Warnf(format, args...)
 }
 
