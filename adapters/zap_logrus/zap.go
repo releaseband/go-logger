@@ -1,4 +1,4 @@
-package zap
+package zap_logrus
 
 import (
 	"fmt"
